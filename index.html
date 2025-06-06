@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Pengunjung</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Form Input Pengunjung</h1>
+  <form id="form">
+    <input type="text" id="nama" placeholder="Nama" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="pesan" placeholder="Pesan" required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <h2>Data Terkini</h2>
+  <table id="data-table">
+    <thead><tr><th>Nama</th><th>Email</th><th>Pesan</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
